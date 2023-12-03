@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    font-family: "Arimo SemiBold";
+    font-size: 10px;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    background-color: white;
+    color: black;
+}
+
+nav img {
+    height: 150px;
+    width: 150px;
+    transition: 0.7s;
+}
+
+nav img:hover {
+    transform: rotate(360deg);
+}
+
+ul {
+    display: inline-grid;
+}
+
+li {
+    text-align: center;
+    font-size: 30px;
+    list-style-type: none;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Source Sans Pro ExtraLight";
+    transition: 1s;
+}
+
+a:hover {
+    font-size: 40px;
+    color: red;
+}
+
+.container {
+    position: relative;
+    margin-top: 150px;
+    display: grid;
+    justify-content: center;
+}
+
+.container img {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+#textbox1 {
+    margin-top: 50px;
+    margin-left: 25px;
+    display: grid;
+    justify-content: left;
+    color: white;
+    font-size: 15px;
+}
+
+.textbutton {
+    margin-top: 150px;
+    margin-right: 25px;
+    display: grid;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}
+
+.textbutton button {
+    font-size: 30px;
+    font-family: "Arimo SemiBold";
+    color: black;
+    border-radius: 20px;
+}
+
+.textbutton button:hover {
+    color: darkslategrey;
+    font-size: 30px;
+}
+
+footer {
+    display: inline-flex;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    margin-top: 100px;
+    background-color: white;
+    color: black;
+    font-family: "Arimo SemiBold";
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
