@@ -8,8 +8,8 @@ function imagineMare(x) {
 }
 
 function imagineNormala(x) {
-    x.style.height = "400px";
-    x.style.width = "400px";
+    x.style.height = "28em";
+    x.style.width = "28em";
 }
 
 function textBoxMove(x) {

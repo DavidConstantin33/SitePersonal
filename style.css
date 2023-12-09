@@ -1,6 +1,10 @@
+@media screen and (max-width: 700px) {
+    #textbox1 { font-size: 5px; }
+}
+
 body {
     background-color: black;
-    font-family: "Arimo SemiBold";
+    font-family: "Arimo SemiBold", serif;
     font-size: 10px;
     color: white;
 }
@@ -37,16 +41,20 @@ li {
     margin: auto;
 }
 
-a {
+li a {
     text-decoration: none;
     color: black;
-    font-family: "Source Sans Pro ExtraLight";
+    font-family: "Source Sans Pro ExtraLight", serif;
     transition: 1s;
 }
 
-a:hover {
+li a:hover {
     font-size: 40px;
     color: red;
+}
+
+@media screen and (max-width: 700px) {
+    .container img { width: 200px; height: 200px }
 }
 
 .container {
@@ -57,8 +65,9 @@ a:hover {
 }
 
 .container img {
-    width: 400px;
-    height: 400px;
+    margin-top: 3em;
+    width: 28em;
+    height: 28em;
     padding: 20px;
     border-radius: 50%;
     transition: 1s;
@@ -70,7 +79,7 @@ a:hover {
     display: grid;
     justify-content: left;
     color: white;
-    font-size: 15px;
+    font-size: 1.5em;
 }
 
 .textbutton {
@@ -82,31 +91,49 @@ a:hover {
     font-size: 15px;
 }
 
-.textbutton button {
-    font-size: 30px;
-    font-family: "Arimo SemiBold";
+.textbutton button a {
+    text-decoration: none;
+    width: 7em;
+    font-size: 2em;
+    font-family: "Arimo SemiBold", serif;
     color: black;
-    border-radius: 20px;
 }
 
-.textbutton button:hover {
-    color: darkslategrey;
-    font-size: 30px;
+.abouth {
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 6em;
+    margin-left: 10%;
+}
+
+.aboutme {
+    text-align: center;
+    font-size: 2.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.img2 {
+    float: left;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 footer {
-    display: inline-flex;
+    left: 0;
     position: absolute;
     width: 100%;
-    height: auto;
-    bottom: 0;
-    left: 0;
-    margin-top: 100px;
+    height: 12vh;
     background-color: white;
     color: black;
-    font-family: "Arimo SemiBold";
-    font-size: 15px;
-    padding-top: 30px;
-    padding-bottom: 30px;
     text-align: center;
+    margin-top: 10em;
+    padding-top: 2em;
+    font-family: "Arimo SemiBold", serif;
+    font-size: 1.5em;
 }
