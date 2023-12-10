@@ -3,8 +3,8 @@ function clickFunction() {
 }
 
 function imagineMare(x) {
-    x.style.height = "800px";
-    x.style.width = "800px";
+    x.style.height = "50em";
+    x.style.width = "50em";
 }
 
 function imagineNormala(x) {
@@ -16,11 +16,5 @@ function textBoxMove(x) {
     document.getElementById(textbox1);
     x.style.marginLeft = "35%";
     x.style.transition = "1s";
-    x.style.position = "relative";
-}
-
-function textBoxMoveBack(x) {
-    document.getElementById(textbox1);
-    x.style.marginLeft = "25px";
     x.style.position = "relative";
 }

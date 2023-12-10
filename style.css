@@ -109,19 +109,66 @@ li a:hover {
 .aboutme {
     text-align: center;
     font-size: 2.5em;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 5%;
-    margin-bottom: 10%;
+    margin: 5% 20% 10%;
+}
+
+@media (max-width: 750px) {
+    .abouth {
+        margin-top: 10em;
+        font-size: 2em;
+    }
+    .aboutme {
+        font-size: 1.5em;
+    }
+
+    .img2 {
+        height: 30em;
+        width: 30em;
+        margin: 0 0 5em 10em;
+    }
 }
 
 .img2 {
     float: left;
-    height: 30%;
-    width: 30%;
+    height: 28em;
+    width: 28em;
     border-radius: 50%;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.soon {
+    margin-top: 20em;
+    text-align: center;
+    color: white;
+}
+
+.soon h1 {
+    font-size: 5em;
+    margin-bottom: 10em;
+}
+
+.contact {
+    justify-content: center;
+    font-size: 2em;
+    display: flex;
+    margin: 20em 2em 2em 5em;
+    color: white;
+    text-align: center;
+}
+
+.media {
+    margin-left: 2em;
+}
+
+@media screen and (max-width: 700px) {
+    .contact { display: inline-block;}
+}
+
+.contact img {
+    border-radius: 12px;
+    height: 10em;
+    width: 10em;
 }
 
 footer {
