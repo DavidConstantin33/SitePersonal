@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap');
-
 @media screen and (max-width: 700px) {
     #textbox1 { font-size: 5px; }
 }
 
 body {
     background-color: black;
-    font-family: "Arimo SemiBold", serif;
+    font-family: 'Arimo', sans-serif;
     font-size: 10px;
     color: white;
 }
@@ -46,7 +44,7 @@ li {
 li a {
     text-decoration: none;
     color: black;
-    font-family: "Source Sans Pro ExtraLight", serif;
+    font-family: 'Source Sans 3', sans-serif;
     transition: 1s;
 }
 
@@ -97,7 +95,7 @@ li a:hover {
     text-decoration: none;
     width: 7em;
     font-size: 2em;
-    font-family: "Arimo SemiBold", serif;
+    font-family: 'Arimo', sans-serif;
     color: black;
 }
 
@@ -185,6 +183,6 @@ footer {
     text-align: center;
     margin-top: 10em;
     padding-top: 2em;
-    font-family: "Arimo SemiBold", serif;
+    font-family: 'Arimo', sans-serif;
     font-size: 1.5em;
 }
